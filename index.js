@@ -21,11 +21,14 @@ class Love {
             img.src = `https://ale-valentines.s3.us-west-1.amazonaws.com/${idx+1}.jpeg`
             div.className = "card"
             const h3 = document.createElement("h3")
+            const h4 = document.createElement("h4")
             h3.innerHTML = memory.event
+            h4.innerHTML = memory.date
             const p = document.createElement("p")
             p.innerText = memory.details
             div.appendChild(img)
             div.appendChild(h3)
+            div.appendChild(h4)
             div.appendChild(p)
             this.root.appendChild(div)
         });

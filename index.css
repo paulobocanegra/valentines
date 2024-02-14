@@ -23,6 +23,15 @@ h3{
     margin-top: 15px
 }
 
+h4{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Gill Sans, sans-serif;
+    /* width: 90%; */
+    margin: 0 auto;
+    margin-top: 15px
+}
+
 p{
     margin-top: 15px;
     font-size: 20px;
